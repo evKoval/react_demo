@@ -8,15 +8,15 @@ import {
     Input,
     InputNumber,
     Radio,
-    Select,
     Switch,
     TreeSelect,
     Upload,
 } from 'antd';
 import {PlusOutlined} from '@ant-design/icons';
+import {RangePicker} from "./RangePicker";
+import {SelectExample} from "./Select";
 
 
-const {RangePicker} = DatePicker;
 const {TextArea} = Input;
 
 const normFile = (e: any) => {
@@ -60,9 +60,7 @@ export const FormDemo: React.FC = () => {
                     <Input/>
                 </Form.Item>
                 <Form.Item label="Select">
-                    <Select>
-                        <Select.Option value="demo">Demo</Select.Option>
-                    </Select>
+                    <SelectExample/>
                 </Form.Item>
                 <Form.Item label="TreeSelect">
                     <TreeSelect

@@ -4,6 +4,7 @@ import './App.css';
 import {Chart} from "./components/Chart/Chart";
 import {FormDemo} from "./components/Form";
 import {SelectExample} from "./components/Select";
+import {Chart1} from "./charts/Chart1";
 
 function App() {
     return (
@@ -15,10 +16,16 @@ function App() {
                         React app demo
                     </div>
                 </header>
-                <Chart/>
+
+
             </div>
             <FormDemo/>
-            <SelectExample/>
+
+
+            <div style={{display: "flex"}}>
+            <Chart1 width={300} height={300} />
+            <Chart/>
+            </div>
         </>
     );
 }

@@ -75,7 +75,6 @@ export const SelectExample: React.FC = () => {
 
     return (
         <div style={{width: "400px"}}>
-            <h1>Dynamic Select</h1>
             <DebounceSelect
                 mode="multiple"
                 value={value}

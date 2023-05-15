@@ -12,7 +12,6 @@ export const Chart = (): JSX.Element => {
     }, [data.length])
     return (
         <>
-            <RangePicker />
             <LineChart
                 width={800}
                 height={400}
