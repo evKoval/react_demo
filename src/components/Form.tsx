@@ -16,8 +16,6 @@ import {RangePicker} from "./RangePicker";
 import {SelectExample} from "./Select";
 
 
-const {TextArea} = Input;
-
 const normFile = (e: any) => {
     if (Array.isArray(e)) {
         return e;
@@ -45,9 +43,6 @@ export const FormDemo: React.FC = () => {
                 style={{maxWidth: 600}}
                 validateTrigger={"onChange"}
             >
-                <Form.Item label="Checkbox" name="disabled" valuePropName="checked">
-                    <Checkbox>Checkbox</Checkbox>
-                </Form.Item>
                 <Form.Item label="Radio">
                     <Radio.Group>
                         <Radio value="apple"> Apple </Radio>
@@ -89,9 +84,6 @@ export const FormDemo: React.FC = () => {
                 </Form.Item>
                 <Form.Item label="InputNumber">
                     <InputNumber/>
-                </Form.Item>
-                <Form.Item label="TextArea">
-                    <TextArea rows={4}/>
                 </Form.Item>
                 <Form.Item label="Switch" valuePropName="checked">
                     <Switch/>
