@@ -26,7 +26,6 @@ export const RangePicker = (): JSX.Element => {
         <DatePicker.RangePicker
             presets={rangePresets}
             showTime
-            size={"small"}
             format="HH:mm:ss DD.MM.YYYY"
             onChange={onRangeChange}
         />

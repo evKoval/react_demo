@@ -1,7 +1,6 @@
 import {JSX, useEffect, useState} from "react";
 import {Dot, generateData, generateDataInPosition} from "./chartData";
 import {CartesianGrid, Line, LineChart, Tooltip, XAxis, YAxis} from "recharts";
-import {RangePicker} from "../RangePicker";
 
 export const Chart = (): JSX.Element => {
     const [data, setData] = useState<Dot[]>(generateData())

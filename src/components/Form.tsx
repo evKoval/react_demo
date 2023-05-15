@@ -3,7 +3,6 @@ import {
     Button,
     Cascader,
     Checkbox,
-    DatePicker,
     Form,
     Input,
     InputNumber,
@@ -31,7 +30,7 @@ export const FormDemo: React.FC = () => {
 
     return (
         <div style={{width: "800px", display: "block"}}>
-            <h1>Form with validation</h1>
+            <h2>Antd Components</h2>
             <Checkbox
                 checked={componentDisabled}
                 onChange={(e) => setComponentDisabled(e.target.checked)}
@@ -84,9 +83,6 @@ export const FormDemo: React.FC = () => {
                             },
                         ]}
                     />
-                </Form.Item>
-                <Form.Item label="DatePicker">
-                    <DatePicker/>
                 </Form.Item>
                 <Form.Item label="RangePicker">
                     <RangePicker/>
