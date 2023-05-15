@@ -110,8 +110,8 @@ export const FormDemo: React.FC = () => {
                         </div>
                     </Upload>
                 </Form.Item>
-                <Form.Item label="Button">
-                    <Button>Button</Button>
+                <Form.Item>
+                    <Button htmlType={"submit"}>Submit</Button>
                 </Form.Item>
             </Form>
         </div>
