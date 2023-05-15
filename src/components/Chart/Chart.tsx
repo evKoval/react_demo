@@ -1,7 +1,6 @@
 import {JSX, useEffect, useState} from "react";
 import {Dot, generateData, generateDataInPosition} from "./chartData";
 import {CartesianGrid, Line, LineChart, Tooltip, XAxis, YAxis} from "recharts";
-import {Space} from "antd";
 import {RangePicker} from "../RangePicker";
 
 export const Chart = (): JSX.Element => {
@@ -12,7 +11,7 @@ export const Chart = (): JSX.Element => {
         return () => clearTimeout(timeout);
     }, [data.length])
     return (
-        <Space direction={"vertical"}>
+        <>
             <RangePicker />
             <LineChart
                 width={800}
@@ -36,6 +35,6 @@ export const Chart = (): JSX.Element => {
                     // isAnimationActive={false}
                 />
             </LineChart>
-        </Space>
+    </>
     )
 }
