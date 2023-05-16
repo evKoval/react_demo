@@ -29,6 +29,12 @@
     color: #61dafb;
 }
 
+.chartsContainer {
+    display: flex;
+    justify-content: flex-start;
+    height: 400px;
+}
+
 @keyframes App-logo-spin {
     from {
         transform: rotate(0deg);
@@ -38,7 +44,7 @@
     }
 }
 
-.external-link{
+.external-link {
     display: block;
     font-size: 12px;
     color: #888888;

@@ -124,7 +124,7 @@ export function Chart1(props) {
     };
   }, []);
 
-  return <div ref={chartRef} style={{width: "30%", margin: "auto"}} ></div>;
+  return <div ref={chartRef} style={{width, height}}></div>;
 }
 
 function bumps(m) {

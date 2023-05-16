@@ -21,8 +21,8 @@ function App() {
                     <MuiDemo/>
                 </div>
 
-                <div className={"testClassname"} style={{display: "flex"}}>
-                    <Chart1 width={300} height={300}/>
+                <div className={"chartsContainer"}>
+                    <Chart1 width={300} height={400}/>
                     <Chart/>
                 </div>
                 <div>
