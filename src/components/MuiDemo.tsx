@@ -21,7 +21,10 @@ export const MuiDemo = () => {
     });
 
     return <div style={{width: "800px", display: "block"}}>
-        <h2 style={{marginBottom: "30px"}}>Material UI Components</h2>
+        <h2 style={{marginBottom: "30px"}}>Material UI Components
+            <a className="external-link" href={"https://mui.com/x/react-data-grid/"}>все компоненты</a>
+        </h2>
+
         <div style={{display: "grid", gap: "40px"}}>
         <Box sx={{ width: 200 }}>
         <Autocomplete

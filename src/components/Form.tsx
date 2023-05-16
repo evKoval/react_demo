@@ -28,7 +28,10 @@ export const FormDemo: React.FC = () => {
 
     return (
         <div style={{width: "800px", display: "block"}}>
-            <h2>Antd Components</h2>
+            <h2>Antd Components
+                <a className="external-link" href={"https://ant.design/components/overview"}>все компоненты</a>
+            </h2>
+
             <Checkbox
                 checked={componentDisabled}
                 onChange={(e) => setComponentDisabled(e.target.checked)}

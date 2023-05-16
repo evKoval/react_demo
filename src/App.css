@@ -37,3 +37,11 @@
         transform: rotate(360deg);
     }
 }
+
+.external-link{
+    display: block;
+    font-size: 12px;
+    color: #888888;
+    margin-bottom: 10px;
+    font-weight: normal;
+}

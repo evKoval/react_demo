@@ -25,7 +25,13 @@ function App() {
                     <Chart1 width={300} height={300}/>
                     <Chart/>
                 </div>
+                <div>
+                    <a className="external-link"
+                       href="https://examples.sencha.com/extjs/7.6.0/examples/kitchensink/?modern#components">Новая
+                        версия ExtJs</a>
+                </div>
             </>
+
         </ThemeProvider>
     );
 }
