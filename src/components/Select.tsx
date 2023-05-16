@@ -74,7 +74,7 @@ export const SelectExample: React.FC = () => {
     const [value, setValue] = useState<UserValue[]>([]);
 
     return (
-        <div style={{width: "400px"}}>
+        <div>
             <DebounceSelect
                 mode="multiple"
                 value={value}
